@@ -1,0 +1,17 @@
+html, body, #container, .carousel {
+	height:100%;
+	margin: 0;
+	width: 100%;
+}
+
+$theme-blue: #14B6D4;
+
+.image-slide {
+	display: inline-block;
+    width: 100%;
+    max-width: 789px;
+    height: 402px;
+    transition: background-image .3s ease-in-out;
+	    border: 2px solid black;
+	    margin: 5px;
+}
