@@ -52,8 +52,8 @@ class Carousel extends React.Component {
 		const ImageSlide = ({ url }) => {
 			const styles = {
 				backgroundImage: `url(${url})`,
-				backgroundSize: "cover",
-				backgroundPosition: "center"
+				backgroundSize: "100%",
+				backgroundRepeat: "no-repeat"
 			};
 
 			return <div className="image-slide" style={styles} />;
