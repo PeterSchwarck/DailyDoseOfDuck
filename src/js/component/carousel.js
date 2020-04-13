@@ -8,7 +8,7 @@ import muscovyDuck from "../../../img/MuscovyDuck.jpg";
 }
 
 const imgUrls = [
-	"https://i.pinimg.com/originals/90/9a/fb/909afbf29463c40a1ced0b424e1886b2.jpg",
+	"https://youtu.be/Fd3Su5lWJsw",
 	"https://download.ams.birds.cornell.edu/api/v1/asset/51036351/large",
 	"https://i.ytimg.com/vi/3vvS0SK3Dmc/maxresdefault.jpg",
 	"https://opimedia.azureedge.net/-/media/Images/MEN/Editorial/Blogs/Homesteading-and-Livestock/Keeping-Muscovy-Ducks-is-Now-Illegal/ducklings-jpg.jpg?h=329&w=550&la=en&hash=4C87AFF663211D112612317FE03DE320AD0B7CA4"
