@@ -1,16 +1,17 @@
-    img {
-        width: 220px;
-        height: 250px;
-        border-radius: 50%;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 5px;
-        float: left;
-        margin-bottom: -40px;
-    }
+img {
+    width: 220px;
+    height: 270px;
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    float: left;
+    margin-bottom: -40px;
+   }
 
 .row {
   display: flex;
+  margin-top: 35px;
 }
 
 .column {
@@ -25,10 +26,19 @@
 .right {
     width: 75%;
     margin-top: 20px;
+    margin-left: 10px;
 }
 
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
+}
+
+h3.display-4 {
+    margin-top: 0px;
+}
+
+.jumbotron-fluid {
+    padding-top: 10px;
 }
