@@ -1,12 +1,18 @@
-.player-wrapper {
-  display: inline-block;
-  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
-}
-
-.react-player {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding-top: 60px;
-  padding-bottom: 120px;
+.buttonClass {
+    height: 49px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgb(202, 57, 64), rgba(246, 23, 90, 0.164));
+    font-weight: bold;
+    border: 1px solid #e7dfdd;
+    border-radius: 5px;
+    text-shadow: x-offset y-offset blur color;
+    box-shadow: 0px 2px 0px #e7dfdd, 0px 1px 10px rgba(0,0,0,.4);
+    padding: 4px;
+    width: 150px;
+    cursor: pointer;
+    background-color: rgb(246, 23, 23);
+    color: white !important;
+    margin-top: 15px;
 }

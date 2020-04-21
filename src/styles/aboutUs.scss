@@ -1,11 +1,10 @@
-img {
+.aboutUsPic {
     width: 220px;
     height: 270px;
     border-radius: 50%;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
-    float: left;
     margin-bottom: -40px;
    }
 
@@ -17,6 +16,7 @@ img {
 .column {
   float: left;
   padding: 25px;
+  margin-top: 15px;
 }
 
 .left {
@@ -41,4 +41,14 @@ h3.display-4 {
 
 .jumbotron-fluid {
     padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.mt-4, .my-4 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.aboutText {
+    margin-top: 10px;
 }

@@ -44,12 +44,12 @@ export class Navbar extends React.Component {
 						<ul className="navbar-nav ml-auto">
 							<li onClick={this.toggleNavbar} className="nav-item">
 								<Link className="nav-link" to="/">
-									Home
+									Feature Duck
 								</Link>
 							</li>
 							<li onClick={this.toggleNavbar} className="nav-item">
 								<Link className="nav-link" to="/theducks">
-									Show me the Ducks
+									Show Me More Ducks
 								</Link>
 							</li>
 							<li onClick={this.toggleNavbar} className="nav-item">

@@ -1,22 +1,33 @@
-import React, { Component } from "react";
-import ReactPlayer from "react-player";
+import React from "react";
+import ReactDOM from "react-dom";
+import ModalVideo from "react-modal-video";
 
-class VideoPlayer extends React.Component {
+export class VideoPlayer extends React.Component {
+	constructor() {
+		super();
+		this.state = {
+			isOpen: false
+		};
+		this.openModal = this.openModal.bind(this);
+	}
+
+	openModal() {
+		this.setState({ isOpen: true });
+	}
+
 	render() {
 		return (
-			<div className="player-wrapper">
-				<ReactPlayer
-					className="react-player"
-					url="https://vimeo.com/408983110"
-					playing
-					width="100%"
-					height="100%"
-					// margin-top="50px"
-					// margin-bottom="50px"
+			<div>
+				<ModalVideo
+					channel="vimeo"
+					isOpen={this.state.isOpen}
+					videoId="408983110"
+					onClose={() => this.setState({ isOpen: false })}
 				/>
+				<button className="buttonClass" onClick={this.openModal}>
+					Click Here
+				</button>
 			</div>
 		);
 	}
 }
-
-export default VideoPlayer;
