@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import ModalVideo from "react-modal-video";
-import BigPoppa from "../../../img/BigPoppa.png";
 
 export class VideoPlayer01 extends React.Component {
 	constructor() {

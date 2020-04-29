@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import ModalVideo from "react-modal-video";
-import Shuffle from "../../../img/shuffle.png";
 
 export class VideoPlayer04 extends React.Component {
 	constructor() {
