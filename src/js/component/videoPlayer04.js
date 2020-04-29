@@ -25,7 +25,11 @@ export class VideoPlayer04 extends React.Component {
 					videoId="411472412"
 					onClose={() => this.setState({ isOpen: false })}
 				/>
-				<img className="card-img-top" src={Shuffle} alt="Shufflin" onClick={this.openModal}></img>
+				<img
+					className="card-img-top"
+					src={require("../../../img/shuffle.png")}
+					alt="Shufflin"
+					onClick={this.openModal}></img>
 			</div>
 		);
 	}
