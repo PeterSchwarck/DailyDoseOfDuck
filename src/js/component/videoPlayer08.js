@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import ModalVideo from "react-modal-video";
-import ComeAtMeBro from "../../../img/ComeAtMeBro.png";
+import ComeAtMeBro from "../../../img/comeAtMeBro.png";
 
 export class VideoPlayer08 extends React.Component {
 	constructor() {
