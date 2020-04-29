@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import ModalVideo from "react-modal-video";
+import StrutYourStuffing from "../../../img/StrutYourStuffing.png";
 
-export class VideoPlayer extends React.Component {
+export class VideoPlayer02 extends React.Component {
 	constructor() {
 		super();
 		this.state = {
@@ -21,12 +22,14 @@ export class VideoPlayer extends React.Component {
 				<ModalVideo
 					channel="vimeo"
 					isOpen={this.state.isOpen}
-					videoId="410647797"
+					videoId="410714000"
 					onClose={() => this.setState({ isOpen: false })}
 				/>
-				<button className="buttonClass" onClick={this.openModal}>
-					Click Here
-				</button>
+				<img
+					className="card-img-top"
+					src={StrutYourStuffing}
+					alt="Strut Your Stuffing"
+					onClick={this.openModal}></img>
 			</div>
 		);
 	}

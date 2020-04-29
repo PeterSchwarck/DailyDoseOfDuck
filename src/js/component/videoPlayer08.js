@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import ModalVideo from "react-modal-video";
+import ComeAtMeBro from "../../../img/ComeAtMeBro.png";
 
-export class VideoPlayer extends React.Component {
+export class VideoPlayer08 extends React.Component {
 	constructor() {
 		super();
 		this.state = {
@@ -21,12 +22,10 @@ export class VideoPlayer extends React.Component {
 				<ModalVideo
 					channel="vimeo"
 					isOpen={this.state.isOpen}
-					videoId="410647797"
+					videoId="413238734"
 					onClose={() => this.setState({ isOpen: false })}
 				/>
-				<button className="buttonClass" onClick={this.openModal}>
-					Click Here
-				</button>
+				<img className="card-img-top" src={ComeAtMeBro} alt="Come at me bro" onClick={this.openModal}></img>
 			</div>
 		);
 	}

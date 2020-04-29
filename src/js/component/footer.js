@@ -5,13 +5,13 @@ export class Footer extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			showSnapchatModal: true
+			showSnapchat: false
 		};
 	}
 
 	toggleSnapchatModal() {
 		this.setState(prevState => ({
-			showSnapchatModal: !this.state.showSnapchatModal
+			showSnapchat: !this.state.showSnapchat
 		}));
 	}
 
@@ -28,8 +28,10 @@ export class Footer extends React.Component {
 								<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
 									<i className="fab fa-instagram fa-3x social-gp"></i>
 								</a>
-								<a href="" onClick={() => this.toggleSnapchatModal()} rel="noopener noreferrer">
-									<i className="fab fa-snapchat-square fa-3x social-em"></i>
+								<a>
+									<a
+										className="fab fa-snapchat-square fa-3x social-em"
+										onClick={() => this.toggleSnapchatModal()}></a>
 								</a>
 							</div>
 							<section>
@@ -42,7 +44,7 @@ export class Footer extends React.Component {
 						<div></div>
 					</section>
 				</footer>
-				{<Snapchat show={this.state.showSnapchatModal} onClose={() => this.toggleSnapchatModal()} />}
+				<Snapchat show={this.state.showSnapchat} onClose={() => this.setState({ showSnapchat: false })} />
 			</div>
 		);
 	}

@@ -1,7 +1,14 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { Context } from "../store/appContext";
-
+import { VideoPlayer01 } from "../component/videoPlayer01";
+import { VideoPlayer02 } from "../component/videoPlayer02";
+import { VideoPlayer03 } from "../component/videoPlayer03";
+import { VideoPlayer04 } from "../component/videoPlayer04";
+import { VideoPlayer05 } from "../component/videoPlayer05";
+import { VideoPlayer06 } from "../component/videoPlayer06";
+import { VideoPlayer07 } from "../component/videoPlayer07";
+import { VideoPlayer08 } from "../component/videoPlayer08";
 import "../../styles/demo.scss";
 
 export class TheDucks extends React.Component {
@@ -11,7 +18,7 @@ export class TheDucks extends React.Component {
 				<div className="rowOne">
 					<div className="col-12 col-lg-8 col-md-10 mx-auto">
 						<div>
-							<h1>The ducks go here</h1>
+							<h2 className="title">Overdose on ducks</h2>
 						</div>
 					</div>
 				</div>
@@ -19,45 +26,98 @@ export class TheDucks extends React.Component {
 					<div className="col-12 col-lg-8 col-md-10 mx-auto">
 						<div className="card-deck">
 							<div className="card">
-								<img className="card-img-top" src="..." alt="Card image cap"></img>
+								<VideoPlayer01 />
 								<div className="card-body">
-									<h5 className="card-title">Card title</h5>
+									<h5 className="card-title">Big Poppa</h5>
+									<p className="card-text">A T-bone steak, cheese, eggs, and Welch&apos;s grape.</p>
 									<p className="card-text">
-										This is a longer card with supporting text below as a natural lead-in to
-										additional content. This content is a little bit longer.
-									</p>
-									<p className="card-text">
-										<small className="text-muted">Last updated 3 mins ago</small>
+										<small className="text-muted">Last updated April 23, 2020</small>
 									</p>
 								</div>
 							</div>
 							<div className="card">
-								<img className="card-img-top" src="..." alt="Card image cap"></img>
+								<VideoPlayer02 />
 								<div className="card-body">
-									<h5 className="card-title">Card title</h5>
+									<h5 className="card-title">Strut Your Stuffing</h5>
+									<p className="card-text">Swagger</p>
 									<p className="card-text">
-										This card has supporting text below as a natural lead-in to additional content.
-									</p>
-									<p className="card-text">
-										<small className="text-muted">Last updated 3 mins ago</small>
+										<small className="text-muted">Last updated April 23, 2020</small>
 									</p>
 								</div>
-								`
 							</div>
 							<div className="card">
-								<img className="card-img-top" src="..." alt="Card image cap"></img>
+								<VideoPlayer03 />
 								<div className="card-body">
-									<h5 className="card-title">Card title</h5>
+									<h5 className="card-title">Roll Out!</h5>
+									<p className="card-text">Making an entrance</p>
 									<p className="card-text">
-										This is a wider card with supporting text below as a natural lead-in to
-										additional content. This card has even longer content than the first to show
-										that equal height action.
-									</p>
-									<p className="card-text">
-										<small className="text-muted">Last updated 3 mins ago</small>
+										<small className="text-muted">Last updated April 23, 2020</small>
 									</p>
 								</div>
 							</div>
+						</div>
+					</div>
+				</div>
+				<div className="rowThree">
+					<div className="col-12 col-lg-8 col-md-10 mx-auto">
+						<div className="card-deck">
+							<div className="card">
+								<VideoPlayer04 />
+								<div className="card-body">
+									<h5 className="card-title">Shufflin</h5>
+									<p className="card-text">Everyday I&apos;m shufflin</p>
+									<p className="card-text">
+										<small className="text-muted">Last updated April 29, 2020</small>
+									</p>
+								</div>
+							</div>
+							<div className="card">
+								<VideoPlayer05 />
+								<div className="card-body">
+									<h5 className="card-title">Prepare for Battle</h5>
+									<p className="card-text">What?!</p>
+									<p className="card-text">
+										<small className="text-muted">Last updated April 29, 2020</small>
+									</p>
+								</div>
+							</div>
+							<div className="card">
+								<VideoPlayer06 />
+								<div className="card-body">
+									<h5 className="card-title">Duck Famous</h5>
+									<p className="card-text">Ducks on the red carpet</p>
+									<p className="card-text">
+										<small className="text-muted">Last updated April 29, 2020</small>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="rowFour">
+					<div className="col-12 col-lg-8 col-md-10 mx-auto">
+						<div className="card-deck">
+							<div className="card">
+								<VideoPlayer07 />
+								<div className="card-body">
+									<h5 className="card-title">Big Pimpin</h5>
+									<p className="card-text">A whole mood</p>
+									<p className="card-text">
+										<small className="text-muted">Last updated April 29, 2020</small>
+									</p>
+								</div>
+							</div>
+							<div className="card">
+								<VideoPlayer08 />
+								<div className="card-body">
+									<h5 className="card-title">Come at me bro!</h5>
+									<p className="card-text">Savage AF</p>
+									<p className="card-text">
+										<small className="text-muted">Last updated April 29, 2020</small>
+									</p>
+								</div>
+							</div>
+							<div className="card"></div>
 						</div>
 					</div>
 				</div>

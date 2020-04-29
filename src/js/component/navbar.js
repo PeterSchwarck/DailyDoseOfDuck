@@ -26,9 +26,9 @@ export class Navbar extends React.Component {
 		return (
 			<div className="navbarDiv">
 				<nav className="navbar sticky-top navbar navbar-dark styleElement">
-					<a className="navbar-brand" href="#">
+					<Link className="navbar-brand" to="/">
 						#DailyDoseOfDuck
-					</a>
+					</Link>
 					<button
 						onClick={this.toggleNavbar}
 						className={`${classTwo}`}

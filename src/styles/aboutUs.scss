@@ -1,54 +1,19 @@
-.aboutUsPic {
-    width: 220px;
-    height: 270px;
+.jumboContainer{
+    margin-top: 65px;
+    margin-bottom: 110px;
+}
+
+.img-fluid {
     border-radius: 50%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    margin-bottom: -40px;
-   }
+    max-height: 340px;
 
-.row {
-  display: flex;
-  margin-top: 35px;
 }
 
-.column {
-  float: left;
-  padding: 25px;
-  margin-top: 15px;
+.mt-3, .my-3 {
+    margin-top: 0rem !important;
 }
 
-.left {
-    width: 20%
-}
-
-.right {
-    width: 75%;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-h3.display-4 {
-    margin-top: 0px;
-}
-
-.jumbotron-fluid {
+.bottomPart{
+    border-top: solid 1px lightgray;
     padding-top: 10px;
-    padding-bottom: 20px;
-}
-
-.mt-4, .my-4 {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
-}
-
-.aboutText {
-    margin-top: 10px;
 }
