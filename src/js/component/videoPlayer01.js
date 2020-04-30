@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import ModalVideo from "react-modal-video";
+import BigPoppa from "../../../img/BigPoppa.jpg";
 
 export class VideoPlayer01 extends React.Component {
 	constructor() {
@@ -24,11 +25,7 @@ export class VideoPlayer01 extends React.Component {
 					videoId="410713787"
 					onClose={() => this.setState({ isOpen: false })}
 				/>
-				<img
-					className="card-img-top"
-					src={require("../../../img/BigPoppa.png")}
-					alt="Big Poppa"
-					onClick={this.openModal}></img>
+				<img className="card-img-top" src={BigPoppa} alt="Big Poppa" onClick={this.openModal}></img>
 			</div>
 		);
 	}
